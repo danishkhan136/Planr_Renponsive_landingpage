@@ -34,10 +34,6 @@ p {
     margin-bottom: 0px;
 }
 
-ul {
-    margin-bottom: 0;
-}
-
 ul li:last-child {
     margin-bottom: 0;
 }
@@ -264,15 +260,6 @@ li .dropdown-item {
 
 
 /* Slider tested Section */
-
-.trusted-title {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: -0.16px;
-    color: #E7E7E7;
-
-}
 
 .brands-marquee {
     overflow: hidden;
@@ -590,32 +577,6 @@ li .dropdown-item {
     box-shadow: 0px 1px 2px #14151A0D;
 
 
-}
-
-.main-heading {
-    display: flex;
-    font-weight: 500;
-    line-height: 110%;
-    margin-bottom: 24px;
-    position: relative;
-    gap: 4px;
-}
-
-.main-heading sup {
-    font-weight: 400;
-    line-height: 150%;
-    position: absolute;
-
-}
-
-.main-heading .sup1 {
-    top: 0px;
-    left: -10px;
-}
-
-.main-heading .sup2 {
-    top: 0px;
-    left: 50px;
 }
 
 .card-para,
@@ -1008,10 +969,6 @@ li .dropdown-item {
         max-width: 542px;
     }
 
-    .update-pill-white {
-        font-size: 16px;
-    }
-
     .Slider-trusted-section {
         padding-bottom: 78px;
     }
@@ -1027,10 +984,6 @@ li .dropdown-item {
     .features .features-content-col {
         padding-bottom: 10px;
 
-    }
-
-    .features-head {
-        max-width: 252px;
     }
 
     .features-para {
@@ -1055,10 +1008,6 @@ li .dropdown-item {
 
     .Pricing .hero-para {
         max-width: 440px;
-    }
-
-    .main-heading sup {
-        font-size: 14px;
     }
 
     .cta .cta-content-col {
@@ -1159,10 +1108,6 @@ li .dropdown-item {
 
     .title {
         font-size: 34px;
-    }
-
-    .features-head {
-        max-width: 100%;
     }
 
     .Projects {
