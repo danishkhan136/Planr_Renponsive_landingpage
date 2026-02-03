@@ -319,18 +319,12 @@ li .dropdown-item {
 .badge-group {
     width: max-content;
     padding: 4px 6px;
-    background: rgba(255, 255, 255, 0.1);
+    background: #FFFFFF1A;
     border-radius: 3118px;
 }
 
-.badge-label {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: -0.08px;
-    color: #ffffff;
-    text-align: center;
-    white-space: nowrap;
+.features .features-content-col .badge-group {
+    border: 1px solid rgba(255, 255, 255, 0.2)
 }
 
 .title {
