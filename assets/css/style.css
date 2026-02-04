@@ -550,6 +550,9 @@ li .dropdown-item {
 
 .projects-head {
     margin-bottom: 62px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -632,7 +635,7 @@ li .dropdown-item {
 }
 
 .faq-section .features-para {
-    max-width: 336px;
+    max-width:fit-content;
     color: #E7E7E7;
 }
 
@@ -846,7 +849,7 @@ li .dropdown-item {
 
     .hero-para {
         letter-spacing: -0.6px;
-        max-width: 228px;
+        /* max-width: 228px; */
     }
 
     .small-text {
@@ -870,9 +873,9 @@ li .dropdown-item {
 
     }
 
-    .features .hero-para {
+    /* .features .hero-para {
         max-width: 268px;
-    }
+    } */
 
     .feature-title {
         font-size: 20px;
@@ -888,7 +891,7 @@ li .dropdown-item {
     }
 
     .testimonial .hero-para {
-        max-width: 310px;
+        /* max-width: 310px; */
         letter-spacing: -1px;
     }
 
@@ -907,13 +910,13 @@ li .dropdown-item {
         padding-bottom: 44px;
     }
 
-    .Projects .title {
+    /* .Projects .title {
         max-width: 292px;
-    }
+    } */
 
     .Projects .hero-para {
         letter-spacing: 0.2px;
-        max-width: 238px;
+        /* max-width: 238px; */
     }
 
     .Projects .col-padding {
@@ -926,9 +929,9 @@ li .dropdown-item {
     }
 
 
-    .Pricing .title {
+    /* .Pricing .title {
         max-width: 280px;
-    }
+    } */
 
     .card-para {
         margin-bottom: 10px;
@@ -961,7 +964,7 @@ li .dropdown-item {
 
     .hero-title {
         font-size: 40px;
-        max-width: 542px;
+        /* max-width: 542px; */
     }
 
     .Slider-trusted-section {
@@ -997,9 +1000,9 @@ li .dropdown-item {
         padding: 36px 32px 10px;
     }
 
-    .Pricing .title {
+    /* .Pricing .title {
         max-width: 346px;
-    }
+    } */
 
     .Pricing .hero-para {
         max-width: 440px;
@@ -1138,7 +1141,9 @@ li .dropdown-item {
     .hero-title {
         font-size: 56px;
         letter-spacing: -1.2px;
+        max-width: 542px;
     }
+
 
     .Slider-trusted-section {
         padding-bottom: 154px;
@@ -1165,8 +1170,22 @@ li .dropdown-item {
         padding: 36px 20px 28px;
     }
 
+    .Projects .title{
+        letter-spacing: 1px;
+        max-width: 482px;
+    }
+
+    .Projects .text-orange {
+        display: inline;
+    }
+
     .Pricing .title {
         max-width: 428px;
+    }
+
+    
+    .Pricing .text-orange {
+        display: inline;
     }
 
     .pricing-list {
