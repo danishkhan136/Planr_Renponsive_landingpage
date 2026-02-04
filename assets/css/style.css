@@ -772,15 +772,12 @@ li .dropdown-item {
     text-decoration: none;
 }
 
-.footer-links li:first-child {
-    margin-bottom: 20px;
-}
-
-.disabled {
+.footer-heading{
     opacity: 40%;
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .divider {
