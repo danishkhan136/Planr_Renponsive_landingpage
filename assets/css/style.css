@@ -309,13 +309,9 @@ li .dropdown-item {
 
 .badge-group {
     width: max-content;
-    padding: 4px 6px;
     background: #FFFFFF1A;
     border-radius: 3118px;
-    padding-top: 4px;
-    padding-right: 6px;
-    padding-bottom: 4px;
-    padding-left: 6px;
+    padding: 4px 16px;
 }
 
 .badge-group span {
@@ -766,7 +762,6 @@ li .dropdown-item {
 .footer-links li {
     margin-bottom: 22px;
     font-weight: 500;
-    font-style: Medium;
     font-size: 14px;
     color: #E7E7E7;
     text-decoration: none;
