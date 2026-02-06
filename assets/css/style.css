@@ -379,7 +379,7 @@ li .dropdown-item {
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0;
-    max-width: 300px;
+    /* max-width: 300px; */
 }
 
 
