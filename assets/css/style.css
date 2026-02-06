@@ -836,7 +836,7 @@ li .dropdown-item {
 
     .hero-title {
         font-size: 28px;
-        max-width: 288px;
+        /* max-width: 288px; */
     }
 
     .hero-para {
