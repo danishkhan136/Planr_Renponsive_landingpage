@@ -757,7 +757,7 @@ li .dropdown-item {
 
 
 /* Footer Section */
-.footer {
+/* .footer {
     color: #E7E7E7;
     padding-top: 88px;
     background-color: #141416;
@@ -794,7 +794,7 @@ li .dropdown-item {
     height: 1px;
     opacity: 0.2;
     background: #E7E7E7;
-}
+}*/
 
 .footer-bottom-link {
     color: #E7E7E7;
@@ -809,6 +809,65 @@ li .dropdown-item {
 .bottom {
     padding-bottom: 88px;
 }
+
+.footer {
+    color: #E7E7E7;
+    padding-top: 88px;
+    background-color: #141416;
+    position: relative;
+}
+
+.footer-row {
+    margin-bottom: 70px;
+}
+
+.footer-heading {
+    opacity: 0.4;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 22px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Footer Link Animation (Grey → Orange left to right) */
+.footer-links li a {
+    text-decoration: none;
+
+    background: linear-gradient(to right, #FF4C00 50%, #E7E7E7 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    transition: background-position 0.6s ease;
+}
+
+.footer-links li a:hover {
+    background-position: left bottom;
+}
+
+.divider {
+    max-width: 1024px;
+    height: 1px;
+    opacity: 0.2;
+    background: #E7E7E7;
+    margin: 0 auto;
+}
+
+
 
 .glow-overlay {
     position: absolute;
@@ -1201,6 +1260,6 @@ li .dropdown-item {
     }
 
     .cta .cta-content-col {
-      padding: 86px 24px;
+        padding: 86px 24px;
     }
 }
