@@ -1201,7 +1201,6 @@ li .dropdown-item {
     }
 
     .cta .cta-content-col {
-        padding-bottom: 86px;
-        padding-top: 86px;
+      padding: 86px 24px;
     }
 }
