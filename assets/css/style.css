@@ -42,7 +42,7 @@ ul li:last-child {
 /* NAVBAR */
 
 .planr-navbar {
-    padding-top: 24px;
+    padding: 24px 48px;
 }
 
 .nav-inner {
@@ -177,7 +177,7 @@ li .dropdown-item {
 /* Hero Section */
 
 .hero-section {
-    padding-top: 86px;
+    padding-top: 62px;
     padding-bottom: 88px;
 }
 
@@ -631,7 +631,7 @@ li .dropdown-item {
 }
 
 .faq-section .features-para {
-    max-width:fit-content;
+    max-width: fit-content;
     color: #E7E7E7;
 }
 
@@ -772,7 +772,7 @@ li .dropdown-item {
     text-decoration: none;
 }
 
-.footer-heading{
+.footer-heading {
     opacity: 40%;
     font-weight: 500;
     font-size: 16px;
@@ -819,6 +819,10 @@ li .dropdown-item {
 
 
 @media (max-width: 576px) {
+    .planr-navbar {
+        padding: 24px 5px;
+    }
+
     .pill-text {
         font-size: 0;
     }
@@ -1162,7 +1166,7 @@ li .dropdown-item {
         padding: 36px 20px;
     }
 
-    .Projects .title{
+    .Projects .title {
         letter-spacing: 1px;
         max-width: 482px;
     }
@@ -1175,7 +1179,7 @@ li .dropdown-item {
         max-width: 428px;
     }
 
-    
+
     .Pricing .text-orange {
         display: inline;
     }
