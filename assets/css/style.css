@@ -1159,8 +1159,7 @@ li .dropdown-item {
     }
 
     .features .features-content-col {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding: 80px 24px;
     }
 
     .features-para {
