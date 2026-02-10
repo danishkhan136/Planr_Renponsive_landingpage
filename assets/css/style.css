@@ -887,6 +887,11 @@ li .dropdown-item {
 
 
 @media (max-width: 576px) {
+
+    .nav-links li a {
+        font-size: 14px;
+    }
+
     .planr-navbar {
         padding: 24px 5px;
     }
@@ -919,6 +924,11 @@ li .dropdown-item {
     .small-text {
         font-size: 12px;
     }
+
+    .avatars .avatar:last-of-type {
+        margin-right: 0px;
+    }
+
 
     .Slider-trusted-section {
         padding-bottom: 40px;
@@ -1017,10 +1027,6 @@ li .dropdown-item {
 
     .cta .cta-content-col {
         padding-bottom: 10px;
-    }
-
-    .nav-links li a {
-        font-size: 14px;
     }
 }
 
