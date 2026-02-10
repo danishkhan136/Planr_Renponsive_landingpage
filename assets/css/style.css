@@ -185,7 +185,7 @@ li .dropdown-item {
     width: fit-content;
     padding-top: 4px;
     padding-right: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 4px;
     padding-left: 6px;
     border-radius: 3118px;
     background: rgba(253, 185, 156, 0.2);
@@ -194,8 +194,13 @@ li .dropdown-item {
 
 }
 
+.update-inner {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .pill-update {
-    width: 50px;
     padding-top: 2px;
     padding-right: 6px;
     padding-left: 8px;
