@@ -203,11 +203,11 @@ li .dropdown-item {
 .pill-update {
     padding-top: 2px;
     padding-right: 6px;
-    padding-left: 8px;
+    padding-left: 6px;
     padding-bottom: 2px;
     border-radius: 3118px;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: -0.08px;
     text-align: center;
@@ -216,7 +216,7 @@ li .dropdown-item {
 
 .pill-text {
     font-weight: 500;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: -0.08px;
     text-align: center;
@@ -273,7 +273,7 @@ li .dropdown-item {
 .brands-marquee {
     overflow: hidden;
     width: 100%;
-    padding: 40px 0;
+    padding: 62px 0;
 }
 
 .marquee-track {
@@ -1216,7 +1216,7 @@ li .dropdown-item {
 
 
     .Slider-trusted-section {
-        padding-bottom: 154px;
+        padding-bottom: 124px;
     }
 
     .title {
