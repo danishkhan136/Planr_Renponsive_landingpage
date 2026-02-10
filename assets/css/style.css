@@ -910,6 +910,13 @@ li .dropdown-item {
         background: #FF4C00;
     }
 
+    .update-inner{
+        gap: 0;
+    }
+
+    .pill-update{
+        font-size: 14px;
+    }
 
     .hero-title {
         font-size: 28px;
