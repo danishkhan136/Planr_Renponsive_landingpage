@@ -71,7 +71,7 @@ li .dropdown-item {
     color: #000;
 }
 
-.btn-wrap {
+/* .btn-wrap {
     display: inline-block;
     border-radius: 38px;
     border: 4px solid #FDB99C1A;
@@ -102,6 +102,99 @@ li .dropdown-item {
     background: #FF4C00 !important;
     color: #fff !important;
     box-shadow: none;
+} */
+
+.btn-wrap {
+    display: inline-block;
+    border-radius: 38px;
+    border: 4px solid #FDB99C1A;
+    transition: all 0.35s ease;
+    position: relative;
+}
+
+/* Button */
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 10px 18px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    background: #FF4C00 !important;
+    border-radius: 38px;
+    color: #fff;
+    white-space: nowrap;
+    flex-shrink: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+    border: 0.1px solid transparent;
+    /* reserved border space */
+    outline: none !important;
+    box-shadow: none !important;
+
+    transition: all 0.35s ease;
+}
+
+/* Arrow smooth transition */
+.arrow {
+    width: 16px;
+    transition: transform 0.35s ease;
+}
+
+/* Shine effect */
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,
+            transparent,
+            rgba(255, 255, 255, 0.4),
+            transparent);
+    transition: all 0.6s ease;
+}
+
+/* Hover effect for BOTH btn-wrap + button */
+.btn-wrap:hover {
+    transform: translateY(-4px);
+    border: 4px solid rgba(255, 76, 0, 0.45);
+    box-shadow: 0px 0px 20px rgba(255, 76, 0, 0.25);
+}
+
+.btn-wrap:hover .btn {
+    box-shadow: 0px 10px 25px rgba(255, 76, 0, 0.45);
+}
+
+/* Arrow slide */
+.btn-wrap:hover .arrow {
+    transform: translateX(6px);
+}
+
+/* Shine sweep */
+.btn-wrap:hover .btn::before {
+    left: 120%;
+}
+
+/* Focus + hover */
+.btn:hover,
+.btn:focus {
+    color: #fff !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Active click border */
+.btn:active {
+    color: #fff !important;
+    border: 0.1px solid #fff !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 /* HAMBURGER (MOBILE)*/
@@ -887,6 +980,10 @@ li .dropdown-item {
 
 
 @media (max-width: 576px) {
+    
+    .navbar-brand {
+        margin: 0;
+    }
 
     .nav-links li a {
         font-size: 14px;
