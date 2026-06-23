@@ -17,19 +17,7 @@ The design focuses on a professional digital-agency style layout with a strong h
 
 Add your deployed project link here:
 
-```text
-https://your-live-demo-link.com
-```
-
----
-
-## Project Preview
-
-Add your project screenshot here after uploading an image to your repository:
-
-```md
-![Planr Landing Page Preview](./assets/images/preview.png)
-```
+https://danishkhan136.github.io/Planr_Renponsive_landingpage/
 
 ---
 
